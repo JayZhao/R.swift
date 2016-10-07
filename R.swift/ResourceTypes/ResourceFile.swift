@@ -14,7 +14,6 @@ struct ResourceFile {
       AssetFolder.supportedExtensions,
       Storyboard.supportedExtensions,
       Nib.supportedExtensions,
-      LocalizableStrings.supportedExtensions,
     ]
     .reduce([]) { $0.union($1) }
 
