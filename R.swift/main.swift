@@ -32,7 +32,6 @@ do {
     NibStructGenerator(nibs: resources.nibs),
     ReuseIdentifierStructGenerator(reusables: resources.reusables),
     ResourceFileStructGenerator(resourceFiles: resources.resourceFiles),
-    StringsStructGenerator(localizableStrings: resources.localizableStrings),
   ]
 
   let aggregatedResult = AggregatedStructGenerator(subgenerators: generators)
